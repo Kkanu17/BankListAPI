@@ -3,8 +3,8 @@ from rest_framework import routers
 from api import views
 
 router = routers.DefaultRouter()
-router.register('branches', views.BranchesViewSet)
 router.register('bank', views.BankViewSet)
+router.register('branches', views.BranchesViewSet)
 
 # SessionAuthentication is implemented 
 

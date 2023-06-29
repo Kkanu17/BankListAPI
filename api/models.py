@@ -8,7 +8,7 @@ class Bank(models.Model):
     name = models.CharField(max_length=49, blank=True, null=True, unique=True)
     id = models.BigIntegerField(primary_key=True,default=000000)
 
- # Model for Bank Table
+ # Model for Branch Table
 
 class Branch(models.Model):
     ifsc = models.CharField(primary_key=True, max_length=11)
