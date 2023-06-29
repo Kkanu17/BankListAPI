@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Branch , Bank
 
 
-class BranchesSerializer(serializers.HyperlinkedModelSerializer):
+class BranchesSerializer(serializers.ModelSerializer):
     
     bank_name = serializers.CharField(source='bank_id.name')
     class Meta:

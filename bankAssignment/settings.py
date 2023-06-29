@@ -89,7 +89,7 @@ DATABASES = {
         "USER": "root",
         "PASSWORD": "root",
         "HOST": "127.0.0.1",
-        "PORT": "3006",  #5432
+        "PORT": "3006",  # 3306 this is the default port for my sql db
     
     }
 }
