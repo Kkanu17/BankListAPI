@@ -1,7 +1,7 @@
 # BankListAPI
 
 I am using Django REST Framework for achieving endpoints given in assignment.
-[image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
+![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
 
 Requirements:
 •	Python
@@ -19,7 +19,7 @@ REST API endpoints have been created, by requesting the URL we get:-
 
 If we want to fetch Bank List and Branch details for specific Branch we can fetch it by 
 Example:  /branch=? NEW PANVEL
-![(https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/PostmanBranchListGetRequestFilter.png)]
+![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/PostmanBranchListGetRequestFilter.png)
 
 
 
