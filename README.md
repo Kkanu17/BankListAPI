@@ -11,15 +11,15 @@ Requirements:
 
 REST API endpoints have been created, by requesting the URL we get:-
 •	GET Bank List : This gives us bank name and its id
-![image description](https://github.com/Kkanu17/BankListAPI/ImageFolder/BankListAPI.png)
+![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
 
 
 •	GET Branch details : This gives us branch details along with bank name its fields are ifsc, bank name, branch name,  address, city, District, state.
-![image description](https://github.com/Kkanu17/BankListAPI/ImageFolder/BranchListAPI.png)
+![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BranchListAPI.png)
 
 If we want to fetch Bank List and Branch details for specific Branch we can fetch it by 
 Example:  /branch=? NEW PANVEL
-![image description](https://github.com/Kkanu17/BankListAPI/ImageFolder/PostmanBranchListGetRequestFilter.png)
+![(https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/PostmanBranchListGetRequestFilter.png)]
 
 
 
