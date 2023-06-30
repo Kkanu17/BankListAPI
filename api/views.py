@@ -16,7 +16,6 @@ class BankViewSet(viewsets.ModelViewSet):
 # ViewSet for Branch Table is created along with getting the Bank List and its branch details for a specific branch.
 
 class BranchesViewSet(viewsets.ModelViewSet):
-    #queryset = Branch.objects.all().order_by('ifsc')
     queryset = Branch.objects.all()
     serializer_class = BranchesSerializer
     def get_queryset(self):
