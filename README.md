@@ -1,7 +1,8 @@
 # BankListAPI
 
 I am using Django REST Framework for achieving endpoints given in assignment.
-![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
+
+![RootAPI](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/RootAPI.png)
 
 Requirements:
 •	Python
@@ -11,15 +12,18 @@ Requirements:
 
 REST API endpoints have been created, by requesting the URL we get:-
 •	GET Bank List : This gives us bank name and its id
-![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
+
+![BankListAPI](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
 
 
 •	GET Branch details : This gives us branch details along with bank name its fields are ifsc, bank name, branch name,  address, city, District, state.
-![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BranchListAPI.png)
+
+![BranchListAPI](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BranchListAPI.png)
 
 If we want to fetch Bank List and Branch details for specific Branch we can fetch it by 
 Example:  /branch=? NEW PANVEL
-![image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/PostmanBranchListGetRequestFilter.png)
+
+![PostmanBranchListGetRequestFilter](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/PostmanBranchListGetRequestFilter.png)
 
 
 
