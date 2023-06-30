@@ -1,7 +1,7 @@
 # BankListAPI
 
 I am using Django REST Framework for achieving endpoints given in assignment.
-[image description](https://github.com/Kkanu17/BankListAPI/ImageFolder/RootAPI.png)
+[image description](https://github.com/Kkanu17/BankListAPI/blob/main/ImageFolder/BankListAPI.png)
 
 Requirements:
 •	Python
